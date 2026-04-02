@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spend Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Simulatore di Spese</h1>
+            <p>Spendi il tuo denaro come preferisci!</p>
+        </header>
+        
+        <div class="budget-info">
+            <h2>Budget: <span id="budget">$1000</span></h2>
+        </div>
+
+        <div class="spending-options">
+            <button class="spend-btn" data-amount="100">$100</button>
+            <button class="spend-btn" data-amount="50">$50</button>
+            <button class="spend-btn" data-amount="25">$25</button>
+            <button class="spend-btn" data-amount="10">$10</button>
+        </div>
+
+        <div class="transaction-history">
+            <h3>Transazioni Recenti</h3>
+            <ul id="history-list">
+                <!-- Le transazioni saranno aggiunte qui -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
